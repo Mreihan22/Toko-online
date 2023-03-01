@@ -1,0 +1,155 @@
+::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  --bg-color: #e4e8de;
+  --text-color: #2e3840;
+  --main-color: #4e6e81;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins" sans-serif;
+}
+#home {
+  background-color: var(--bg-color);
+  width: 100%;
+}
+.col .card {
+  border: 2px solid grey;
+}
+.jumbotron {
+  background-color: var(--bg-color);
+}
+.jumbotron img {
+  width: 160px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid grey;
+  border-radius: 60%;
+  margin-top: 30px;
+}
+.jumbotron i {
+  font-size: 30px;
+  font-weight: 450;
+}
+.jumbotron p {
+  padding: 1px 8px;
+  font-size: 20px;
+  text-align: center;
+}
+.jumbotron a {
+  text-align: center;
+}
+#produk{
+  margin-top: -17px;
+  background-color: var(--bg-color);
+  padding-bottom: 20px;
+}
+#produk h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.produk{
+  background-color: var(--bg-color);
+  margin: 5px;
+}
+.produk .card{
+  border: 2px solid grey;
+}
+#kontack {
+  background-color: var(--bg-color);
+  width: 100%;
+}
+.icon a {
+  color: rgb(144, 141, 141);
+  padding: 10px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+.icon a:hover {
+  color: #2e3840;
+  font-size: 35px;
+}
+#toko {
+  margin-top: -30px;
+  background-color: var(--bg-color);
+  width:100%;
+}
+#toko h2 {
+  text-align: center;
+  margin-bottom: -10px;
+}
+.toko {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--bg-color);
+}
+.card {
+  border-radius: 50px;
+  background-color: var(--bg-color);
+
+}
+.card i {
+  color: #2e3840;
+  font-size: 50px;
+}
+.card h2 {
+  color: #2e3840;
+  font-size: 20px;
+}
+.card p {
+  color: black;
+  font: 15px;
+}
+.card-body {
+  background-color: var(--bg-color);
+  border-radius: 6px;
+  border: 2px solid grey;
+}
+.card a {
+  text-decoration: none;
+  background-color: #2e3840;
+  padding: 4px 8px;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  border: 1px solid grey;
+}
+.card a:hover {
+  background-color: rgb(92, 97, 98);
+  color: white;
+  border: 2px solid grey;
+  transition: 0, 3s;
+  font-size: 20px;
+}
+#kontack {
+  background-color: var(--bg-color);
+}
+#kontack h2 {
+  text-align: center;
+}
+#kontak p {
+  text-align: center;
+}
+.footer {
+  background-color: #2e3840;
+  margin-top: -17px;
+  padding-bottom: 1px;
+}
+.footer h2 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: var(--bg-color);
+  font-size: 12px;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
